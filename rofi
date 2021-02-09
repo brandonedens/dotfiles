@@ -1,0 +1,11 @@
+
+
+rofi.font: Fira Code 10
+
+rofi.location: 0
+rofi.xoffset: 0
+rofi.yoffset: 0
+
+rofi.theme: Arc-Dark
+
+rofi.config

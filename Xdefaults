@@ -1,0 +1,600 @@
+! .Xdefaults --------------------------------------------------------------------
+
+! terminal colors
+
+*background: black
+*foreground: gray
+!black
+*color0:	#000000
+!red
+*color1:	#d36265
+!green
+*color2:	#8eae61
+!yellow
+*color3:	#a7a15c
+!blue
+*color4:	#7a7ab0
+!purple
+*color5:	#963c59
+!cyan
+*color6:	#418179
+!gray
+*color7:	gray
+!bright black
+*color8:	gray40
+!bright red
+*color9:	#ef8171
+!bright green
+*color10:	#a5f779
+!bright yellow
+*color11:	#fff796
+!bright blue
+*color12:	#4186be
+!bright purple
+*color13:	#ef9ebe
+!bright cyan
+*color14:	#71bebe
+!bright white
+*color15:	#FFFFFF
+
+
+! Xcursor --------------------------------------------------------------------
+Xcursor*theme: parch-32
+Xcursor.size:  32
+
+! Xft settings ---------------------------------------------------------------
+Xft.dpi:        96
+Xft.antialias:  true
+Xft.rgba:       rgb
+Xft.hinting:    true
+Xft.hintstyle:  hintslight
+
+
+! xterm ----------------------------------------------------------------------
+
+! xterm*geometry:           157x48
+!xterm*faceName:Sans:pixelsize=14
+!xterm*faceName:Bitstream\ Vera\ Sans\ Mono:pixelsize=13:style=Bold
+!xterm*faceName:Bitstream\ Vera\ Sans\ Mono:pixelsize=13
+!xterm*faceName:DejaVu\ Sans\ Mono:size=13
+!xterm*faceName:Hack\ Sans\ Mono:size=13
+xterm*faceName:DejaVu\ Sans\ Mono:pixelsize=12
+!xterm*faceName:Bitstream\ Vera\ Sans\ Mono:pixelsize=9:style=Bold
+!xterm*faceName:Bitstream\ Vera\ Sans\ Mono:pixelsize=12:style=Bold
+!xterm*faceName:DejaVu\ Sans\ Mono:pixelsize=14:style=Bold
+!xterm*faceName:DejaVu\ Sans\ Mono:pixelsize=14:style=Book
+!xterm*faceName:           DejaVu\ Sans\ Mono:pixelsize=14
+!xterm*faceName:           terminusbold:pixelsize=14
+!xterm*font:             -*-dina-medium-r-*-*-16-*-*-*-*-*-*-*
+!xterm*font:               -*-dejavu sans mono-
+xterm*dynamicColors:      true
+xterm*utf8:               2
+xterm*eightBitInput:      true
+xterm*saveLines:          8192
+xterm*scrollTtyKeypress:  true
+xterm*scrollTtyOutput:    false
+xterm*scrollBar:          false
+xterm*rightScrollBar:     false
+xterm*jumpScroll:         true
+xterm*multiScroll:        true
+xterm*toolBar:            false
+
+!really small mode
+!xterm.font: -*-dejavu sans mono-medium-r-*-*-12-*-*-*-*-*-*-*
+!xterm.font: '-b&h-lucidatypewriter-*-r-*-*-*-*-*-*-*-*-*-*'
+!*.faceName: 'comic sans ms'
+!*.faceSize: 12
+
+!XTerm*charClass: 45-47:48,58:48,64:48,35
+!XTerm*FaceName: andale:size=11:charwidth=6
+!XTerm*FaceName: chicago:size=11:charwidth=6
+!XTerm*FaceSize: 11
+!XTerm*fontDoublesize: true
+!xterm.geometry: 		157x48
+!XTerm*WaitForMap:   true
+!XTerm*font: 7x13
+
+!XTerm.VT100*geometry:	90x25
+!black
+XTerm.VT100*color0:	#000000
+!red
+XTerm.VT100*color1:	#d36265
+!green
+!XTerm.VT100*color2:	#aece91
+XTerm.VT100*color2:	#8eae61
+!yellow
+!XTerm.VT100*color3:	#e7e18c
+XTerm.VT100*color3:	#a7a15c
+!blue
+XTerm.VT100*color4:	#7a7ab0
+!purple
+XTerm.VT100*color5:	#963c59
+!cyan
+XTerm.VT100*color6:	#418179
+!gray
+XTerm.VT100*color7:	gray
+!bright black
+XTerm.VT100*color8:	gray40
+!bright red
+XTerm.VT100*color9:	#ef8171
+!bright green
+XTerm.VT100*color10:	#a5f779
+!bright yellow
+XTerm.VT100*color11:	#fff796
+!bright blue
+XTerm.VT100*color12:	#4186be
+!bright purple
+XTerm.VT100*color13:	#ef9ebe
+!bright cyan
+XTerm.VT100*color14:	#71bebe
+!bright white
+XTerm.VT100*color15:	#FFFFFF
+XTerm*Background: Black
+
+
+
+! Emacs settings
+! emacs, xemacs
+Emacs*Background: Black
+Emacs*Foreground: gray
+Emacs*pointerColor: Orchid
+Emacs*cursorColor: Orchid
+! Emacs*bitmapIcon: on
+! Emacs.font: -*-dejavu sans mono-medium-r-*-*-12-*-*-*-*-*-*-*
+!Emacs.font: -*-dejavu sans mono-medium-r-*-*-24-*-*-*-*-*-*-*
+! Emacs.font: Monospace-10
+! Emacs.font: Monospace-10
+
+
+XBoard*showThinking: true
+XBoard*showCoords: true
+!XBoard*monoMode: true
+xboard*xpmDirectory: ~/share/xboard/rebel2
+XBoard*boardSize: Average
+XBoard*whitePieceColor:      #FFFFAA
+XBoard*blackPieceColor:      #202020
+XBoard*lightSquareColor:     #C8C8C8
+XBoard*darkSquareColor:      #6D6D6D
+XBoard*highlightSquareColor: #FFFF00
+XBoard*background:           #3D3D3D
+XBoard*foreground:           #FFFFCC
+xboard*clockFont:           -schumacher-*-medium-r-*-*-16-60-*-*-*-*-iso8859-1
+
+*international: false
+vncviewer.passwordDialog: true
+
+! TODO remove this.
+! *color0:	#000000
+! *color1:	#d36265
+! *color2:	#aece91
+! *color3:	#d7d14c
+! *color4:	#7a7ab0
+! *color5:	#963c59
+! *color6:	#418179
+! *color7:	gray
+! *color8:	gray40
+! *color9:	#ef8171
+! *color10:	#e5f779
+! *color11:	#fff796
+! *color12:	#4186be
+! *color13:	#ef9ebe
+! *color14:	#71bebe
+! *color15:	#FFFFFF
+
+nc.autoStart: True
+
+!# In the scrollbar we map buttons 5 & 4 to 1 and 2 otherwise, core dump
+!# This will move proportionnaly to cursor position but we dont know how
+!to
+!# program the same exact behavior as in the text widget.
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+! Uncomment this to use color for the bold attribute
+! Uncomment this to use color for underline attribute
+! Uncomment this to display the scrollbar
+! This resource specifies whether or not to ignore the 'alternate screen'
+! of applications such as vi.  When it is on, these applications will restore
+! the contents of the screen when they are exited to what they were before
+! they were started.  When it is off, the contents of vi will remain on the
+! screen after the program is quit.
+
+
+! Number of lines of scrollback to save
+
+
+*scrollTtyOutput:       False
+*scrollKey:             True
+Scrollbar.JumpCursor:   True
+
+xcalc*background:	#c4dcba
+xcalc*foreground:	#000000
+xcalc*geometry:	190x250
+xcalc*font:	-schumacher-*-medium-r-*-*-16-60-*-*-*-*-iso8859-1
+
+*borderColor: LightSlateGray
+*frame: #b24d7a
+*highlight: #b24d7a
+*bitmap.stippled: on
+
+
+None<Btn5Down>:LineDown()LineDown()LineDown()LineDown()LineDown()LineDown()\n\
+ Alt<Btn4Down>: xfeDoCommand(forward)\n\
+ Alt<Btn5Down>: xfeDoCommand(back)\n
+!ifdef COLOR
+customization: -color-#aeb2c3
+!endif
+
+
+Netscape*blinkingEnabled: false
+Netscape*useStderrDialog: false
+Netscape*useStdoutDialog: false
+Netscape*noAboutSplash: true
+
+*myshopping.tipString: Go to OSDN
+                 *myshopping.documentationString: Go to OSDN
+                 *toolBar*myshopping.labelString: OSDN
+                 *strings.22495:http://www.osdn.com/
+*search.tipString: AVSearch
+                 *search.documentationString: Goto AV
+                 *toolBar*search.labelString: AVSearch
+!                 *strings.22495:http://www.altavista.com/
+
+
+*fontList:		-*-clean-*-r-*-*-14-*-*-*-*-*-*-*
+*cellFontList:		-*-clean-*-r-*-*-14-*-*-*-*-*-*-*
+
+*XmText.fontList:		-*-clean-*-r-*-*-14-*-*-*-*-*-*-*
+*XmTextField.fontList:		-b&h-lucidatypewriter-bold-r-normal-*-*-90-100-100-m-*-iso8859-1
+*XmList.fontList:		-b&h-lucidatypewriter-bold-r-normal-*-*-90-100-100-m-*-iso8859-1
+!*tabFontList:			-bitstream-courier-medium-r-*-*-*-140-75-*-*-*-iso8859-1
+
+
+
+!! for CDE-like looking
+!*XmToggleButton*shadowThickness:	1
+!*XmToggleButtonGadget*shadowThickness:	1
+*XmArrowButton.shadowThickness:		0
+*XmArrowButtonGadget.shadowThickness:	0
+*XmPushButton.shadowThickness:		1
+*XmPushButtonGadget.shadowThickness:	1
+*XmCascadeButton.shadowThickness:	1
+*XmCascadeButtonGadget.shadowThickness:	1
+*XmDrawnButton.shadowThickness:		1
+*XmText.shadowThickness:		1
+*XmTextField.shadowThickness:		1
+*XmList.shadowThickness:		1
+*XmScrollBar.shadowThickness:		1
+*XmScale.shadowThickness:		1
+*XmNotebook*shadowThickness:		1
+*XmComboBox.shadowThickness:		1
+*XmSpinBox*shadowThickness:		1
+
+
+!! generally, we like INDICATOR_CHECK_BOX for a ToggleButton
+!! but this is new to Motif 2.0.
+!! So we have to set this resource for all pre Motif 2.0
+!! applications explicit.
+*XmToggleButton.indicatorOn:		True
+XMmix*XmToggleButton.indicatorOn:	True
+Netscape*XmToggleButton.indicatorOn:	True
+AcroRead*XmToggleButton.indicatorOn:	True
+
+*highlightThickness:			1
+*XmScrollBar.highlightThickness:	0
+
+*XmToggleButton.fillOnSelect:		True
+*XmToggleButtonGadget.fillOnSelect:	True
+
+
+*troughColor:				#010101
+*highlightColor:			#374a68
+
+*XmToggleButton.selectColor:		#303060
+*XmToggleButtonGadget.selectColor:	#303060
+
+*obAFrame.shadowThickness:		0
+*obEFrame.shadowThickness:		0
+*obHFrame.shadowThickness:		0
+*obNIFrame.shadowThickness:		0
+*obQFrame.shadowThickness:		0
+
+*obAbout*obAName.fontList:	-adobee-poppl laudatio-*-r-*-*-*-140-100-100-*-*-iso8859-1
+*obAbout*obAMsg.fontList:	-adobee-helvetica-medium-r-*-*-*-100-100-100-*-*-iso8859-1
+*obAbout*obAAuthor.fontList:	-adobee-times-bold-i-*-*-*-120-100-100-*-*-iso8859-1
+
+*obError*obEName.fontList:	-adobee-helvetica-bold-r-*-*-*-120-100-100-*-*-iso8859-1
+*obError*obEMsg.fontList:	-adobee-helvetica-bold-r-*-*-*-100-100-100-*-*-iso8859-1
+
+*obHint*obHName.fontList:	-adobee-helvetica-bold-r-*-*-*-120-100-100-*-*-iso8859-1
+*obHint*obHMsg.fontList:	-adobee-helvetica-medium-r-*-*-*-100-100-100-*-*-iso8859-1
+
+*obNImp*obNIName.fontList:	-adobee-helvetica-bold-r-*-*-*-120-100-100-*-*-iso8859-1
+*obNImp*obNIMsg.fontList:	-adobee-helvetica-medium-r-*-*-*-100-100-100-*-*-iso8859-1
+
+*obQuit*obQMessage.fontList:	-adobee-helvetica-medium-r-*-*-*-100-100-100-*-*-iso8859-1
+
+XLock.mode:				bouboule
+XLock.enablesaver:		on
+XLock.sound:			off
+XLock.font:             -*-startrekgen hv bt-*-*-*-*-30-*-*-*-*-*-*-*
+XLock.usefirst:         on
+XLock.dpmsoff:          300
+!XLock.invalidsound:     /usr/X11R6/lib/X11/xlock/sounds/notauthorized.au
+!XLock.locksound:        /usr/X11R6/lib/X11/xlock/sounds/isolate.au
+
+
+
+!!!=============================================================================
+!!! Resources for Xaw
+!!!=============================================================================
+
+!*Command.font:			-bitstream-courier-medium-r-*-*-*-140-75-*-*-*-iso8859-1
+!*Label.font:			-bitstream-courier-medium-r-*-*-*-140-75-*-*-*-iso8859-1
+!*List.font:			-bitstream-courier-medium-r-*-*-*-140-75-*-*-*-iso8859-1
+!*MenuButton.font:		-bitstream-courier-medium-r-*-*-*-140-75-*-*-*-iso8859-1
+
+*Command.highlightThickness:	1
+*Command.borderWidth:		1
+*shapeStyle:			Rectangle
+*Toggle.highlightThickness:	0
+*Toggle*shadowWidth:		2
+*Label.shadowWidth:		1
+*Label.borderWidth:		1
+
+*SimpleMenu.cursor:		hand1
+*shadowWidth:			2
+*topShadowContrast:		50
+*bottomShadowContrast:		50
+*Toggle.topShadowContrast:	20
+*Toggle.bottomShadowContrast:	20
+*Toggle.borderWidth:		1
+
+*drawTextBorder:		True
+ *invertBorder:			False
+*Scrollbar.borderWidth:		1
+*Scrollbar.invertBorder:	False
+*Scrollbar.doubleArrow:		True
+*Scrollbar.borderColor:		#303060
+*Scrollbar.pointerColor:	black
+*Scrollbar.width:		20
+*Scrollbar.height:		18
+*Scrollbar.shadowWidth:		2
+*Scrollbar.cursorName:		hand2
+*Scrollbar.pushThumb:		false
+*MenuButton.highlightThickness:	1
+*Panner.shadowColor:		LightSlateGrey
+*SmeBSB*shadowWidth:		1
+
+!!!----- Other -----------------------------------------------------------------
+
+*vt100.translations: #override \
+        Shift<Key>Tab:		string("\033[Z") \n\
+        <Key>Home:		string("\033[7~") \n\
+        <Key>End:		string("\033[8~") \n\
+        <Key>Delete:		string("\033[3~") \n\
+        Shift<Key>Delete:	string("\177") \n\
+        Ctrl<Key>Delete:	string("\008") \n\
+        Alt<Key>Return:		string("\033\015") \n\
+        Alt<Key>space:		string("\033\040") \n\
+        Alt<Key>a:		string("\033a") \n\
+        Alt<Key>b:		string("\033b") \n\
+        Alt<Key>c:		string("\033c") \n\
+        Alt<Key>d:		string("\033d") \n\
+        Alt<Key>e:		string("\033e") \n\
+        Alt<Key>f:		string("\033f") \n\
+        Alt<Key>g:		string("\033g") \n\
+        Alt<Key>h:		string("\033h") \n\
+        Alt<Key>i:		string("\033i") \n\
+        Alt<Key>j:		string("\033j") \n\
+        Alt<Key>k:		string("\033k") \n\
+        Alt<Key>l:		string("\033l") \n\
+        Alt<Key>m:		string("\033m") \n\
+        Alt<Key>n:		string("\033n") \n\
+        Alt<Key>o:		string("\033o") \n\
+        Alt<Key>p:		string("\033p") \n\
+        Alt<Key>q:		string("\033q") \n\
+        Alt<Key>r:		string("\033r") \n\
+        Alt<Key>s:		string("\033s") \n\
+        Alt<Key>t:		string("\033t") \n\
+        Alt<Key>u:		string("\033u") \n\
+        Alt<Key>v:		string("\033v") \n\
+        Alt<Key>w:		string("\033w") \n\
+        Alt<Key>x:		string("\033x") \n\
+        Alt<Key>y:		string("\033y") \n\
+        Alt<Key>z:		string("\033z") \n\
+        Ctrl<Key>Up:		string("\033Oa") \n\
+        Ctrl<Key>Down:		string("\033Ob") \n\
+        Ctrl<Key>Right:		string("\033Oc") \n\
+        Ctrl<Key>Left:		string("\033Od") \n\
+        Shift<Key>Up:		string("\033[a") \n\
+        Shift<Key>Down:		string("\033[b") \n\
+        Shift<Key>Right:	string("\033[c") \n\
+        Shift<Key>Left:		string("\033[d") \n
+
+!===============================================================================
+!                         --==:: END ::==--
+!===============================================================================
+
+
+!=== NETSCAPE Borders:
+*selector*XfeButton.shadowThickness:                         0
+*selector*shadowThickness:                                   1
+*floatingTaskBar*XfeButton.shadowThickness:                  1
+*floatingTaskBar.shadowThickness:                            1
+*dockedTaskBar*XfeButton.shadowThickness:                    1
+*dockedTaskBar.shadowThickness:                              1
+*dashBoard*progressBar.shadowThickness:                      1
+*dashBoard*statusBar.shadowThickness:                        1
+*dashBoard*viewSecurity.shadowThickness:                     1
+*dashBoard.shadowThickness:                                  1
+*toolBar.shadowThickness:                                    0
+*toolBar*XmSeparator.shadowThickness:                        0
+*toolBar*XfeCascade.shadowThickness:                         1
+*toolBar*XfeButton.shadowThickness:                          1
+*toolBarItem.shadowThickness:                                0
+*menuBar.shadowThickness:                                    0
+*menuBar.borderWidth:                                    0
+*bannerItem.shadowThickness:                                 0
+*personalToolbar*toolBarSeparator.shadowThickness:           0
+*personalToolbar*XfeCascade.shadowThickness:                 1
+*personalToolbar*XfeButton.shadowThickness:                  1
+*personalToolbar.shadowThickness:                            0
+*personalToolbarItem.shadowThickness:                        0
+*urlLocationProxyIcon.shadowThickness:                       0
+*urlBarItem.shadowThickness:                                 0
+*banner*folderDropdown*shadowThickness:                      1
+*bottomPane.shadowThickness:                                 1
+*topPane.shadowThickness:                                    1
+*logo.shadowThickness:                                       1
+Netscape*XmCascadeButtonGadget.shadowThickness:              1
+Netscape*XmCascadeButton.shadowThickness:                    1
+Netscape*XmPushButtonGadget*shadowThickness:                 1
+Netscape*XmPushButton*shadowThickness:                       1
+*composeFolder.shadowThickness:                              1
+*XmToggleButton.shadowThickness:                             1
+netscape*menuBar.shadowThickness:	0
+Netscape*menuBar.radioAlwaysOne: 0
+
+!!--Netscpae labels
+.Netscape.?.openURLDialog_popup.openURLDialog.openInBrowser.labelString: Browse!
+.Netscape.?.openURLDialog_popup.openURLDialog.openInEditor.labelString: Edit!
+.Netscape.?.openURLDialog_popup.openURLDialog.cancelLabelString: Go Away
+
+vt100.translations: #override\n\
+ Shift<Btn4Down>,<Btn4Up>:scroll-back(1,line)\n\
+ Shift<Btn5Down>,<Btn5Up>:scroll-forw(1,line)\n\
+ Ctrl<Btn4Down>,<Btn4Up>:scroll-back(1,page)\n\
+ Ctrl<Btn5Down>,<Btn5Up>:scroll-forw(1,page)\n\
+ <Btn4Down>,<Btn4Up>:string("\033[A")\n\
+ <Btn5Down>,<Btn5Up>:string("\033[B")\n
+
+!XTerm.vt100.translations: #override\n\
+! Shift<Btn4Down>,<Btn4Up>:scroll-back(1,line)\n\
+! Shift<Btn5Down>,<Btn5Up>:scroll-forw(1,line)\n\
+! Ctrl<Btn4Down>,<Btn4Up>:scroll-back(1,page)\n\
+! Ctrl<Btn5Down>,<Btn5Up>:scroll-forw(1,page)\n\
+! <Btn4Down>,<Btn4Up>:scroll-back(1,halfpage)\n\
+! <Btn5Down>,<Btn5Up>:scroll-forw(1,halfpage)\n
+
+! XTerm (and friends)
+!*colorBDMode:   on
+!*colorBD:		#7a7af0
+!*bold:			on
+!*colorULMode:	on
+!*underLine:		off
+!*colorUL:		#d36265
+
+XTerm.highlightSelection:  true
+XTerm.VT100*colorBDMode:  on
+XTerm.VT100*colorBD:  #ceee91
+XTerm.VT100*colorULMode:  on
+XTerm.VT100*underLine:  off
+XTerm.VT100*colorUL:  #963c59
+XTerm*scrollBar:  true
+XTerm.VT100.titeInhibit:  true
+! Uncomment this to turn off color mode in your XTerms
+!XTerm.VT100*colorMode:  off
+XTerm.VT100*dynamicColors:  on
+XTerm*saveLines:        1500
+XTerm*reverseWrap:      true
+XTerm.vt100.Scrollbar.translations: #override\n\
+     <Btn5Down>: StartScroll(Forward)\n\
+     <Btn4Down>: StartScroll(Backward)\n
+
+XTerm.vt100.scrollBar:	False
+
+aterm.transpscrollbar: true
+
+*scrollBar_right: true
+!*saveLines: 500
+!*visualBell: false
+*transparent: true
+!*scrollColor: black
+
+
+*Command.background: #303060
+*Command.foreground: white
+*Dialog.icon.foreground: #b24d7a
+*Form.background:		#010101
+*Menu.background:		gray77
+*MenuButton.background: #766b93
+*MenuButton.foreground: white
+*Panner.background:			LightSlateGrey
+*Panner.foreground:			blue
+*Porthole.background:	black
+*Scrollbar.pointerColorBackground:	#303060
+*Scrollbar.background:	white
+*Scrollbar.foreground:	black
+*SimpleMenu*foreground:		white
+*SimpleMenu.background:		LightSlateGrey
+*Toggle.background: LightSlateGray
+*Toggle.foreground: white
+*XmArrowButton.background:		#010101
+*XmArrowButton.foreground:		#010101
+*XmArrowButtonGadget.background:	#010101
+*XmArrowButtonGadget.foreground:	#010101
+*XmLGrid.selectBackground: darkgreen
+*XmList*background:			#504c6c
+*XmList*foreground:			#103030
+*XmText.background:			#504c6c
+*XmText.foreground:			#ffffff
+*XmTextField.background:		#504c6c
+*XmTextField.foreground:		#103030
+!*background: #667a8b
+!*foreground: #white
+!*background: white
+!*foreground: black
+XLoad*background:			#010101
+XTerm.VT100.background: black
+logs.VT100.background: black
+logs.VT100.foreground: white
+XTerm.VT100.foreground: lightgrey
+aterm.background:	black
+aterm.foreground:	white
+
+
+! xscreensaver ---------------------------------------------------------------
+
+!font settings
+xscreensaver.Dialog.headingFont:        -*-dejavu sans-bold-r-*-*-18-*-*-*-*-*-*-*
+xscreensaver.Dialog.bodyFont:           -*-dejavu sans-medium-r-*-*-14-*-*-*-*-*-*-*
+xscreensaver.Dialog.labelFont:          -*-dejavu sans-medium-r-*-*-14-*-*-*-*-*-*-*
+xscreensaver.Dialog.unameFont:          -*-dejavu sans-medium-r-*-*-14-*-*-*-*-*-*-*
+xscreensaver.Dialog.buttonFont:         -*-dejavu sans-bold-r-*-*-14-*-*-*-*-*-*-*
+xscreensaver.Dialog.dateFont:           -*-dejavu sans-medium-r-*-*-12-*-*-*-*-*-*-*
+xscreensaver.passwd.passwdFont:         -*-dejavu sans-bold-r-*-*-14-*-*-*-*-*-*-*
+!general dialog box (affects main hostname, username, password text)
+
+xscreensaver.Dialog.foreground:         #bbbbbb
+xscreensaver.Dialog.background:         #000000
+xscreensaver.Dialog.topShadowColor:     #000000
+xscreensaver.Dialog.bottomShadowColor:  #000000
+xscreensaver.Dialog.Button.foreground:  #bbbbbb
+xscreensaver.Dialog.Button.background:  #333333
+!username/password input box and date text colour
+xscreensaver.Dialog.text.foreground:    #bbbbbb
+xscreensaver.Dialog.text.background:    #333333
+xscreensaver.Dialog.internalBorderWidth:6
+xscreensaver.Dialog.borderWidth:        4
+xscreensaver.Dialog.shadowThickness:    2
+!timeout bar (background is actually determined by Dialog.text.background)
+xscreensaver.passwd.thermometer.foreground:  #666666
+xscreensaver.passwd.thermometer.background:  #000000
+xscreensaver.passwd.thermometer.width:       8
+
+! gnuplot
+
+gnuplot*background: gray10
+gnuplot*textColor: grey
+gnuplot*borderColor: grey
+gnuplot*axisColor: grey
+gnuplot*line1Color: #d36265
+gnuplot*line2Color: #8eae61
+gnuplot*line3Color: #7a7ab0
+gnuplot*line4Color: #963c59
+gnuplot*line5Color: #4a8179
+gnuplot*line6Color: #a7a15c
+gnuplot*line7Color: #ef9ebe
+gnuplot*line8Color: #7abebe
+
